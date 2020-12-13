@@ -1,0 +1,101 @@
+.body{
+    background-color: rgb(162, 167, 167);
+}
+.menu-elements{
+    position: relative;
+    font-size: 13px;
+    background-color: rgba(49, 42, 42, 0.9);
+    color: #f1f1f1;
+    min-width: 200px;
+    min-height: 137px;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    float: left;
+    width: 24.8%;
+    display: block;
+    outline: 0;
+    border: 1px rgb(26, 7, 7);
+    border-style: solid;
+    
+}
+.menu-elements:hover{
+    background-color: rgba(78, 75, 75, 0.7);
+    cursor: pointer;
+}
+.heading{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    float: left;
+    width: 100%;
+    border: none;
+    position: relative;
+    z-index: 1000;
+    outline: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  width: 200px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-content:hover{
+    
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.button{
+  width: 230px;
+  height: 44px;
+  font-size: 24px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.table{
+    background-color: rgb(236, 235, 232);
+    border: 5px solid rgb(98, 134, 134);
+    padding: 2%;
+}
+.head{
+    margin: 0px 0px 15px 0px;
+    background-color: rgb(46, 43, 43);
+    height: 60px;
+    float: left;
+    width: 100%;
+    border: none;
+    position: relative;
+    z-index: 1000;
+    outline: 0;
+    color: antiquewhite;
+}
+.check{
+    cursor: pointer;
+}
